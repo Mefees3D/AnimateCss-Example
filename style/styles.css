@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: aquamarine;
+}
+p {
+    font-size: 20px;
+}
+.fast  {
+    -vendor-animation-Duration : 1s  ;
+   -vendor-animation-delay : 0s  ;
+} 
+.reallyslow  {
+    -vendor-animation-Duration : 6s  ;
+   -vendor-animation-delay : 3s  ;
+}
+.slow  {
+    -vendor-animation-Duration : 3s  ;
+   -vendor-animation-delay : 1s  ;
+} 
+
